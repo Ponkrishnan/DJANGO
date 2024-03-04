@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Comments Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .command {
+            background-color: #ffd700;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Django Comments Information</h1>
+        <div class="command">
+            <p><strong>startproject &lt;projectname&gt;</strong></p>
+            <p class="description">Creates a new Django project with the given name.</p>
+        </div>
+        
+        <div class="command">
+            <p><strong>runserver</strong></p>
+            <p class="description">Starts the Django development server.</p>
+        </div>
+
+        <div class="command">
+            <p><strong>startapp &lt;appname&gt;</strong></p>
+            <p class="description">Creates a new Django application with the given name.</p>
+        </div>
+
+        <div class="command">
+            <p><strong>migrate</strong></p>
+            <p class="description">Synchronizes the database state with the current set of models and migrations.</p>
+        </div>
+
+        <div class="command">
+            <p><strong>makemigrations</strong></p>
+            <p class="description">Creates new migrations based on the changes detected to your models.</p>
+        </div>
+
+        <div class="command">
+            <p><strong>showmigrations</strong></p>
+            <p class="description">Shows all migrations in your project.</p>
+        </div>
+
+        <div class="command">
+            <p><strong>createsuperuser</strong></p>
+            <p class="description">Creates a superuser account to access the Django admin interface.</p>
+        </div>
+
+        <div class="command">
+            <p><strong>shell</strong></p>
+            <p class="description">Opens the Django interactive Python shell.</p>
+        </div>
+    </div>
+</body>
+</html>

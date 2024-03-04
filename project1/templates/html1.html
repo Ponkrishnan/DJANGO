@@ -1,0 +1,93 @@
+<!-- http_https.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP vs HTTPS</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            font-size: 42px;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        li::before {
+            content: "\2022"; /* Bullet character */
+            color: #ff6f61;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .key-difference {
+            color: #ff6f61;
+            font-weight: bold;
+        }
+
+        .highlight {
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .important {
+            font-weight: bold;
+            color: #1e90ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Difference between HTTP and HTTPS</h1>
+        <p>HTTP (<span class="highlight">Hypertext Transfer Protocol</span>) is a standard protocol used for transferring data over the internet, while HTTPS (<span class="highlight">Hypertext Transfer Protocol Secure</span>) is an extension of HTTP with added security measures.</p>
+        <p class="important">Key differences:</p>
+        <ul>
+            <li><span class="key-difference">Security:</span> HTTPS encrypts data to ensure secure communication between the client and server, protecting against eavesdropping and tampering.</li>
+            <li><span class="key-difference">Certification:</span> HTTPS requires SSL/TLS certificates to verify the authenticity of websites, providing trust and assurance to users.</li>
+            <li><span class="key-difference">SEO:</span> HTTPS is favored by search engines, leading to better search rankings and increased website visibility.</li>
+        </ul>
+        <p>Adopting HTTPS is <span class="important">crucial</span> for ensuring data integrity, user privacy, and maintaining a secure online presence.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!-- http_www.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP vs WWW</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            font-size: 42px;
+            color: #1e90ff;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        li::before {
+            content: "\2022"; /* Bullet character */
+            color: #1e90ff;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .key-difference {
+            color: #1e90ff;
+            font-weight: bold;
+        }
+
+        .highlight {
+            background-color: #ffd700;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .important {
+            font-weight: bold;
+            color: #ff4500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Difference between HTTP and WWW</h1>
+        <p>HTTP (<span class="highlight">Hypertext Transfer Protocol</span>) is a protocol used for transmitting data over the internet, while WWW (<span class="highlight">World Wide Web</span>) is a network of interconnected web resources accessible via HTTP or HTTPS protocols.</p>
+        <p class="important">Key differences:</p>
+        <ul>
+            <li><span class="key-difference">Protocol vs. Domain:</span> HTTP is a protocol for communication, while WWW refers to the domain or subdomain used to access web resources.</li>
+            <li><span class="key-difference">Functionality:</span> HTTP defines how data is transmitted, while WWW represents the collection of web pages and resources available on the internet.</li>
+            <li><span class="key-difference">Usage:</span> WWW is commonly used as part of website URLs, while HTTP is implicit in the web browsing experience.</li>
+        </ul>
+        <p>Understanding the distinction between HTTP and WWW helps users navigate and interact with web content effectively.</p>
+    </div>
+</body>
+</html>
